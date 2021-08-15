@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int price = 5000;
-        int count = 20;
-        int miles = 1;
-        int totalBonus = price / count * miles;
+        int price = 500;
+        int miles = 20;
+        int totalBonus = price / miles;
         System.out.println(totalBonus);
     }
 }
